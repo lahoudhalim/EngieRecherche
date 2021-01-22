@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "suggestion-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/suggestion/SuggestionApplicationCustomizer.js",
+          "manifest": "./src/extensions/suggestion/SuggestionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SuggestionApplicationCustomizerStrings": "lib/extensions/suggestion/loc/{locale}.js"
+  }
+}
