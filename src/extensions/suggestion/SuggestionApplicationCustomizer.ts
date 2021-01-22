@@ -24,11 +24,18 @@ let a  = document.getElementsByClassName("_3X3KIHRvQlB_k1KQr3703K");
 a[0].setAttribute("ID", "searchID");
 
 let  e :HTMLInputElement= document.querySelector('#sbcId > form > input');
- e.setAttribute("onchange","{handleChange}");
- e.addEventListener('change',(event)=>{
+ //e.setAttribute("onchange","{handleChange}");
+//  e.addEventListener('click',(event)=>{
+//    console.log("test1231")
+//   let dropdown = document.getElementById("ms-searchux-popup-0");
+//   console.log(dropdown);
+//  });
+ e.addEventListener('input',(event)=>{
    console.log("test changes2");
-   alert( trie.getPrefix(e.value));
-
+   console.log( trie.getPrefix(e.value));
+  let dropdown = document.getElementById("ms-searchux-popup-0");
+  console.log(dropdown);
+  
  });
 /**
  * If your command set uses the ClientSideComponentProperties JSON input,
@@ -75,7 +82,7 @@ export default class SuggestionApplicationCustomizer
       }
       });
     console.log(test1);
-    console.log("new version 2.0");
+    console.log("new version 2.2");
 
      trie = new Trie(test1);
     

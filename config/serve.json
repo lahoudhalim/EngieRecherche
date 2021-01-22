@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://engie.sharepoint.com/sites/testcaren/SitePages/Home.aspx",
+      "pageUrl": "https://engie.sharepoint.com/sites/testcaren/SitePages/testHalim.aspx",
       "customActions": {
         "e1fb9012-bd8e-49b9-96c1-9ff6503cba53": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -15,7 +15,7 @@
       }
     },
     "suggestion": {
-      "pageUrl": "https://engie.sharepoint.com/sites/testcaren/SitePages/Home.aspx",
+      "pageUrl": "https://engie.sharepoint.com/sites/testcaren/SitePages/testHalim.aspx",
       "customActions": {
         "e1fb9012-bd8e-49b9-96c1-9ff6503cba53": {
           "location": "ClientSideExtension.ApplicationCustomizer",
